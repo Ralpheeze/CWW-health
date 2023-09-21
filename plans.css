@@ -1,0 +1,323 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.home-header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.home-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* Plan page styles */
+.plan-details {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.plan-description {
+    flex: 1;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plan-description h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan-A {
+    background-color:rgb(230, 230, 250);
+}
+
+.plan-B {
+    background-color: beige;
+}
+
+.plan-C {
+    background-color: rgb(255, 127, 80);
+}
+
+.plan-content {
+    text-align: center;
+}
+
+.plan-title {
+    font-size: 45px;
+    margin-top: 1rem;
+}
+
+.plan-head {
+    font-size: 35px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.plan-head3 {
+    font-style: 35px;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+/* Additional Info styles */
+.additional-info {
+    padding: 40px;
+    text-align: center;
+}
+
+.additional-info p {
+    font-size: 18px;
+}
+
+.additional-info ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.additional-info ul li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    /* Adjustments for medium screens */
+    .plan-description {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Adjustments for small screens */
+    .plan-description {
+        max-width: 100%;
+    }
+}
+
+/* Previous styles... */
+
+/* Services styles */
+.services {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item {
+    flex: 1;
+    max-width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* display: flex; */
+    text-align: center;
+}
+
+.service-item .service-icon {
+    flex: 1;
+    /* max-width: 50px; */
+}
+
+
+.service-description {
+    flex: 3;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.plans-img1 {
+    width: 100%;
+    height: 200px;
+}
+
+.plans-img2 {
+    width: 100%;
+        height: 200px;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    /* Adjustments for medium screens */
+    .service-item {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Adjustments for small screens */
+    .service-item {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .service-description {
+        padding-left: 0;
+        margin-top: 10px;
+        text-align: left;
+    }
+}
+
+
+/* Previous styles... */
+
+/* Health Tips styles */
+.health-tips {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tip-card {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    /* Adjustments for medium screens */
+    .tip-card {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Adjustments for small screens */
+    .tip-card {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-list {
+    list-style: none;
+    margin: 0 20px;
+    padding: 0;
+}
+
+.footer-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    /* Adjustments for medium screens */
+    .footer-list {
+        flex: 1;
+        margin: 10px 0;
+    }
+
+    .footer-list li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Adjustments for small screens */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
